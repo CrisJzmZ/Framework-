@@ -1,6 +1,6 @@
 <?php
 class MedicoModel extends Model {
-    protected $table = 'medicos';
+    protected $table = 'medicos' ;
     
     public function getAll() {
         $stmt = $this->db->prepare("
